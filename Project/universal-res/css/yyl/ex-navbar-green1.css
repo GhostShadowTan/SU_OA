@@ -18,13 +18,13 @@
 .ex-dnavbar-userbox
 {
 	height:70px;
-	width:185px;
+	width:180px;
 	margin:0 0;
 	background:inherit;
 	display:inline-block;
 	position:absolute;
 	top:0px;
-	left:150px;
+	left:200px;
 }
 
 #ex-dnavbar-appbox1
@@ -35,7 +35,7 @@
 	display:inline-block;	
 	position:absolute;
 	top:0px;
-	left:370px;
+	left:385px;
 }
 
 
@@ -47,7 +47,7 @@
 	display:inline-block;
 	position:absolute;
 	top:0px;
-	left:490px;
+	left:505px;
 }
 #ex-dnavbar-appbox3
 {
@@ -57,7 +57,7 @@
 	display:inline-block;
 	position:absolute;
 	top:0px;
-	left:610px;
+	left:625px;
 }
 #ex-dnavbar-appbox4
 {
@@ -67,7 +67,7 @@
 	display:inline-block;
 	position:absolute;
 	top:0px;
-	left:730px;
+	left:745px;
 }
 #ex-dnavbar-appbox5
 {
@@ -77,18 +77,17 @@
 	display:inline-block;
 	position:absolute;
 	top:0px;
-	left:850px;
+	left:865px;
 }
 #ex-dnavbar-appbox6
 {
 	height:70px;
 	width:120px;
 	margin:0 ;
-	
 	display:inline-block;
 	position:absolute;
 	top:0px;
-	left:785px;
+	left:985px;
 }
 
 .ex-dnavbar-appbox
