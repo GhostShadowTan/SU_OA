@@ -1,0 +1,241 @@
+/*CSS File*/
+.ex-navbar-for-Desktop
+{
+	height:70px;
+	width:100%;
+	margin:0 0;
+	padding:0 0;
+	position:fixed;
+	top:0;
+	box-shadow:0 5px 5px 0 rgba(0, 0, 0, 0.14), 0 5px 10px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+	background:#00E676;
+	border-bottom:2px solid #00E676;
+	border-left:1px solid #00E676;
+	border-right:1px solid #00E676;
+	z-index:10;
+}
+
+.ex-dnavbar-userbox
+{
+	height:70px;
+	width:185px;
+	margin:0 0;
+	background:inherit;
+	display:inline-block;
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+
+#ex-dnavbar-appbox1
+{
+	height:70px;
+	width:120px;
+	margin:0 ;
+	display:inline-block;	
+	position:absolute;
+	top:0px;
+	left:370px;
+}
+
+
+#ex-dnavbar-appbox2
+{
+	height:70px;
+	width:120px;
+	margin:0 ;
+	display:inline-block;
+	position:absolute;
+	top:0px;
+	left:490px;
+}
+#ex-dnavbar-appbox3
+{
+	height:70px;
+	width:120px;
+	margin:0 ;
+	display:inline-block;
+	position:absolute;
+	top:0px;
+	left:610px;
+}
+#ex-dnavbar-appbox4
+{
+	height:70px;
+	width:120px;
+	margin:0 ;
+	display:inline-block;
+	position:absolute;
+	top:0px;
+	left:730px;
+}
+#ex-dnavbar-appbox5
+{
+	height:70px;
+	width:120px;
+	margin:0 ;
+	display:inline-block;
+	position:absolute;
+	top:0px;
+	left:850px;
+}
+#ex-dnavbar-appbox6
+{
+	height:70px;
+	width:120px;
+	margin:0 ;
+	
+	display:inline-block;
+	position:absolute;
+	top:0px;
+	left:785px;
+}
+
+.ex-dnavbar-appbox
+{
+	background-color:transparent;
+	transition-property:background-color;
+	transition-duration:0.2s;
+	cursor:pointer;
+}
+
+.ex-dnavbar-appbox-push:hover
+{
+	background-color:#40C4FF;
+}
+
+.ex-dnavbar-appbox-push
+{
+	background-color:transparent;
+	transition-property:background-color;
+	transition-duration:0.2s;
+	cursor:pointer;
+}
+
+.ex-dnavbar-appbox:hover
+{
+	background-color:#69F0AE;
+}
+
+.ex-dnavbar-appbox-fixbox
+{
+	height:52px;
+	width:52px;
+	padding:4px 33px 0px 33px;
+	background-color:inherit;
+}
+
+.ex-dnavbar-appbox-fixbox-push
+{
+	height:52px;
+	width:52px;
+	padding:4px 33px 0px 33px;
+	background-color:inherit;
+}
+
+.ex-dnavbar-userbox-avatarfixbox
+{
+	height:54px;
+	width:54px;
+	padding:8px 8px;
+	background-color:none;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+.ex-dnavbar-userbox-avatarfixbox img{border-radius:50%}
+
+.ex-dnavbar-userbox-usernamefixbox
+{
+	height:40px;
+	width:97px;
+	position:absolute;
+	top:0px;
+	left:70px;
+}
+
+.ex-dnavbar-userbox-descunderunfixbox
+{
+	height:30px;
+	width:97px;
+	position:absolute;
+	top:40px;
+	left:70px;
+}
+
+.ex-dnacvar-userbox-username
+{
+	height:24px;
+	margin-top:8px;
+	margin-bottom:8px;
+	text-align:center;
+	font-size:18px;
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+	font-weight:bold;
+	color:#FFF
+}
+
+.ex-dnavbar-userbox-descunderunfb
+{
+	height:30px;
+	margin-top:5px;
+	margin-bottom:5px;
+	text-align:center;
+	font-size:12px;
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+	color:#FFF;
+}
+
+.ex-dnavbar-userbox
+{
+	width:175;
+	height:70px;
+	position:absolute;
+	top:0px;
+	left:168px;
+	background:inherit;
+	transition-duration:0.2s;
+	transition-property:background;
+	cursor:pointer;	
+}
+
+.ex-dnavbar-userbox:hover
+{
+	background:#69F0AE;
+}
+
+
+.ex-dnavbar-appbox-text
+{
+	height:10px;
+	width:118px;
+	padding:2px auto 2px auto;
+	text-align:center;
+	font-size:13px;
+	color:#FFF;
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+	z-index:10;
+}
+	 
+	 .ex-dnavbar-appbox-text-push
+{
+	height:10px;
+	width:118px;
+	padding:1px auto 1px auto;
+	text-align:center;
+	font-size:13px;
+	color:#fff;
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+	z-index:10;
+}
+	.ex-main
+{
+	width:100%;
+	left:220px;
+	right:220px;
+	padding:80px 0px 20px 0px;
+	font-size:21px;
+	text-align:center;
+	z-index:0;
+}

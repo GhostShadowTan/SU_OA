@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- Wirtten By Yang -->
+<!-- Fixed By df7c5117 -->
+<!-- Contact:zhxsuwebgroup@live.com -->
+<!-- Every one can modified it except for the already existing codes -->
+<!-- Zhixin StudentUnion OA System #Codename"SUsage" Version 0.1.2-milestone3 -->
+<!-- ©2016 @Zhxsupc -->
+<!-- something new -->
+<!-- 1.fix some bugs of push layer -->
+<!-- 2.add a confirm dialog for exit -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../universal-res/css/yyl/ex-navbar-green1.css" />
+<link rel="stylesheet" href="../material-framework/css/material.css" />
+<title>(/￣▽￣)/呐，这是你的锅【啪】哦不对，任务，接着！ノ( ‘ – ‘ノ) | Zhixin SUsage milestone3</title>
+<link rel="shortcut icon" href="../universal-res/images/icons/title/task_128X128.ico"/>
+<!--发布窗口叠加层依赖-->
+<style>
+*{margin:0;padding:0px;}
+#show{width:300px;height:200px;display:none;padding:1px;position:absolute;border:1px solid #808080;background:#fff;z-index:10;zoom:1;}
+#show h3{background:#fff;color:#808080;font-size:14px;font-family:微软雅黑;padding:5px;}
+#show span{position:relati;right:3px;top:3px;display:block;cursor:pointer;color:#fff;font-weight:bold;}
+#show p{padding:5px;line-height:none;font-family:"microsoft yahei"}
+#text{font-size:12px;text-indent:2em;line-height:20px;}
+#bgbox{position:absolute;left:0;top:0;display:block;background:#000;filter:alpha(opacity=30);opacity:0.3;z-index:13;}
+</style>
+<script type="text/javascript">
+function show(){
+var iWidth = document.documentElement.clientWidth;
+var iHeight = document.documentElement.clientHeight;
+var bgObj = document.createElement("div");
+bgObj.setAttribute("id","bgbox");
+bgObj.style.width = iWidth+"px";
+bgObj.style.height =Math.max(document.body.clientHeight, iHeight)+"px";
+document.body.appendChild(bgObj);
+var oShow = document.getElementById('show');
+oShow.style.display = 'block';
+oShow.style.left = (iWidth-832)/2+"px";
+oShow.style.top = (iHeight-492)/2+"px";
+var oClosebtn = document.createElement("span");
+oClosebtn.innerHTML = "×";
+oShow.appendChild(oClosebtn);
+function oClose(){
+oShow.style.display = 'none';
+oShow.removeChild(oClosebtn);
+document.body.removeChild(bgObj);
+}
+oClosebtn.onclick = oClose;
+bgObj.onclick = oClose;
+function getEvent() {
+return window.event || arguments.callee.caller.arguments[0];
+}
+document.onkeyup = function(){
+var event = getEvent();
+if (event.keyCode == 27){
+oClose();
+}
+}
+}
+</script>
+<script LANGUAGE="javascript">
+javascript:  
+    function firm() {  
+         
+        if (confirm("你真的真的真的要退出吗?")) {  
+        }  
+        else {  
+        }  
+  
+    }  
+</script>
+</head>
+
+<body style="position:absolute;">
+<!--导航栏从此开始 -->
+<div class="ex-navbar-for-Desktop">
+<a onclick="firm()"><div class="ex-dnavbar-userbox" title="戳一下就退出哦w">
+<div class="ex-dnavbar-userbox-avatarfixbox"><img src="../storageI/avatar/avatar_supc.jpg" style="height:54px;width:54px;" /><!--Edit here 1 (修改路径即可)--></div>
+<div class="ex-dnavbar-userbox-usernamefixbox"><p class="ex-dnacvar-userbox-username">网页组</p><!--Edit here 2（使用php echo出来实现不同用户不同名字)--></div>
+<div class="ex-dnavbar-userbox-descunderunfixbox"><p class="ex-dnavbar-userbox-descunderunfb">早上好，欢迎回来</p><!--Edit here 3（使用php echo出来实现不同用户不同名字)--></div>
+</div></a>
+
+
+<!--第一个appbox-->
+<a href="#"><!--Edit here (修改路径即可)--><div id="ex-dnavbar-appbox1" class="ex-dnavbar-appbox" title="放奇怪的东西的地方【我才这么小你就跟我说这些">
+<div class="ex-dnavbar-appbox-fixbox"><img src="../universal-res/images/icons/bar/ic_files.png" style="height:52px;width:52px;" /><!--Edit here (修改路径即可)--></div>
+<div class="ex-dnavbar-appbox-text">文件库<!--Edit here (修改文字即可)--></div>
+</div></a>
+
+
+<!--第二个appbox-->
+<a href="#"><!--Edit here (修改路径即可)--><div id="ex-dnavbar-appbox2" class="ex-dnavbar-appbox" title="咚咚咚【你有本事发通知怎么没本事开门啊">
+<div class="ex-dnavbar-appbox-fixbox"><img src="../universal-res/images/icons/bar/ic_mail.png" style="height:52px;width:52px;" /><!--Edit here (修改路径即可)--></div>
+<div class="ex-dnavbar-appbox-text">站内信<!--Edit here (修改文字即可)--></div>
+</div></a>
+
+
+<!--第三个appbox-->
+<a href="#"><!--Edit here (修改路径即可)--><div id="ex-dnavbar-appbox3" class="ex-dnavbar-appbox" title="我们给你搞的这个东西啊，excited！【才没有呢">
+<div class="ex-dnavbar-appbox-fixbox"><img src="../universal-res/images/icons/bar/ic_persecution.png" style="height:52px;width:52px;" /><!--Edit here (修改路径即可)--></div>
+<div class="ex-dnavbar-appbox-text">批斗大会<!--Edit here (修改文字即可)--></div>
+</div></a>
+
+
+<!--发布按钮-->
+<div id="ex-dnavbar-appbox4" class="ex-dnavbar-appbox-push" title="想发点啥呢w"><a onclick="show(); return false" href="#">
+<div class="ex-dnavbar-appbox-fixbox-push"><img src="../universal-res/images/icons/bar/ic_create.png" style="height:52px;width:52px;" /></div>
+<div class="ex-dnavbar-appbox-text-push">我要发布</div>
+</a></div>
+
+<!--第4个appbox-->
+<a href="#top"><div id="ex-dnavbar-appbox5" class="ex-dnavbar-appbox" title="咻咻~">
+<div class="ex-dnavbar-appbox-fixbox"><img src="../universal-res/images/icons/bar/ic_backtop.png" style="height:52px;width:52px;" /><!--Edit here (修改路径即可)--></div>
+<div class="ex-dnavbar-appbox-text">返回顶部</div>
+</div></a>
+			
+
+<!-- 若允许用户选择主题颜色，则要创建多个css文件，各自对应不同的主题颜色，这样可以更方便地实现该功能（只需修改引用的css文件路径），也有利于简化代码和维护代码 -->
+
+<!-- 配色方案请从material-framework中的color板块中选择。如果做成非纯色的主题，也可以引用自己的图片 -->
+
+<!--导航栏结束 -->
+</div>
+<!-- 发布框模块-->
+<div id="show" style="position:absolution;z-index:15;height:410px;width:900px;max-height:680px">
+			<h3>你要发布什么( · ω · )</h3>
+            <p>哦退出就按esc或者点旁边吧w</p>
+            <p>小心别手残在写东西的时候按到</p>
+</div>
+<div id="top"></div>
+<div id="main" class="ex-main" style="position:absolute;width:100%;" >
+<p>(..•˘_˘•..)咦这是啥w(๑•́ ₃ •̀๑)能吃吗w(,,•́ . •̀,,)不能啊摔！（ノ*-_-*)ノ┴—┴ </p>
+<p>(￣^￣)哼唧</p>
+<p>我(￣^￣)是来测试滚动的</p>
+<p>我是(￣^￣)来测试滚动的</p>
+<p>我是来(￣^￣)测试滚动的</p>
+<p>我是来测(￣^￣)试滚动的</p>
+<p>我是来测试(￣^￣)滚动的</p>
+<p>我是来测试滚(￣^￣)动的</p>
+<p>我是来测试滚动(￣^￣)的</p>
+<p>我是来测试滚动的(￣^￣)</p>
+<p>我是来测试滚动(￣^￣)的</p>
+<p>我是来测试滚(￣^￣)动的</p>
+<p>我是来测试(￣^￣)滚动的</p>
+<p>我是来测(￣^￣)试滚动的</p>
+<p>我是来(￣^￣)测试滚动的</p>
+<p>我是(￣^￣)来测试滚动的</p>
+<p>我(￣^￣)是来测试滚动的</p>
+<p>(￣^￣)我是来测试滚动的</p>
+<p>我(￣^￣)是来测试滚动的</p>
+<p>我是(￣^￣)来测试滚动的</p>
+<p>我是来(￣^￣)测试滚动的</p>
+<p>我是来测(￣^￣)试滚动的</p>
+<p>我是来测试(￣^￣)滚动的</p>
+<p>我是来测试滚(￣^￣)动的</p>
+<p>我是来测试滚动(￣^￣)的</p>
+<p>我是来测试滚动的(￣^￣)</p>
+<p>我是来测试滚动(￣^￣)的</p>
+<p>我是来测试滚(￣^￣)动的</p>
+<p>我是来测试(￣^￣)滚动的</p>
+<p>我是来测(￣^￣)试滚动的</p>
+<p>我是来(￣^￣)测试滚动的</p>
+<p>我是(￣^￣)来测试滚动的</p>
+<p>我(￣^￣)是来测试滚动的</p>
+<p>(￣^￣)我是来测试滚动的</p>
+</div>
+
+<footer class="ex-footer" id="footer">此处显示  class "footer" id "footer" 的内容</footer>
+
+
+</body>
+</html>
