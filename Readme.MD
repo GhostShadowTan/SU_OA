@@ -10,7 +10,7 @@ Fixed By df7c5117
 <h3>好处都有啥w</h3>
   <s>有了SUsage，不流失不蒸发</s>
   <p>可以发布公告、通知、站内信，布置任务省时省力。</p>
-  <p>界面美观又漂亮,</p><p><s>这真的是Material Design吗w</s></p>
+  <p>界面美观又漂亮,【咦有语病</p><p><s>这真的是Material Design吗w</s></p>
   <p style="fontweight:bold;color:#ff1744;">!!!!!!!!任务没接好可是会被打脸的哟!!!!!!!!</p>
 <h3>近期的事情</h3>
   <p>修好了导航栏的一些样式</p>
