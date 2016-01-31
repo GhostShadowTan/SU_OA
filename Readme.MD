@@ -16,9 +16,10 @@ Fixed By df7c5117
   <p>修好了导航栏的一些样式</p>
   <p>修好了弹出层的z-index惊天bug</p>
   <p>调整弹出层UI和界面逻辑</p>
+  <p>标题栏有图标啦</p>
   <p>全面换装MD样式,<s>很不md的md</s></p>
   <p>body改了一些样式，提供了一些参考</p>
-  <p>加入了富文本编辑器<a href="http://wangeditor.github.io/">WangEditor</a></p>
+  <p>加入了富文本编辑器<a href="http://wangeditor.github.io/" target="_blank">WangEditor</a></p>
 <h3>亟待修复</h3>
   <p>一些奇怪的按钮还没有做</p>
   <p>还没有加入页面瀑布流样式</p>
